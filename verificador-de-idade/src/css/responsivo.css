@@ -1,1 +1,32 @@
+@charset "UTF-8";
 
+@media (max-width: 620px) {
+  
+  .titulo {
+    font-size: 2em;
+  }
+  
+  .container {
+    width: 400px;
+  }
+  
+  .nome-input {
+    font-size: 1em;
+  }
+  
+  #txtano {
+    padding: 10px;
+    width: 185px;
+  }
+  
+  .btn-enviar {
+    padding: 5px;
+    width: 100px;
+    font-size: 1em;
+  }
+  
+  #informacoes {
+    font-size: 1em;
+  }
+  
+}
