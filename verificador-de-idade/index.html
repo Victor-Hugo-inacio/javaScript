@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modelo</title>
+  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  
+</head>
+<body>
+	<header>
+	  <h1 class="titulo">Verificador de Idade</h1>
+	</header>
+	<main class="container">
+	  <section>
+	    <p class="nome-input">Ano de nascimento: 
+	      <input type="number" name="txtano" id="txtano" placeholder="Digite o ano de nascimento..." required="required"/>
+	    </p>
+	    <p class="nome-input">Sexo:  
+	      <input type="radio" name="radio-sexo" id="sexo-masculino" class="sexo"/>
+	      <label for="sexo-masculino">Masculino</label>
+	      <input type="radio" name="radio-sexo" id="sexo-feminino" class="sexo"/>
+	      <label for="sexo-feminino">Feminino</label>
+	    </p>
+	    <p>
+	      <input type="submit" name="enviar" id="enviar" value="enviar" class="btn-enviar"/>
+	    </p>
+	  </section>
+	  <section id="informacoes">
+	    Preencha os dados acima para ver o resultado!
+	  </section>
+	</main>
+	<footer>
+	  <h4 class="sobre-mim">&copy; <a href="https://github.com/Victor-Hugo-inacio" target="_blank">Victor Hugo</a></h4>
+	</footer>
+	<script src="src/js/script.js"></script>
+</body>
+</html>
