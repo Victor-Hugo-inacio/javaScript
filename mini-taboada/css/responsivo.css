@@ -1,1 +1,22 @@
+@charset "UTF-8";
 
+@media (max-width: 620px) {
+  
+  .titulo {
+    font-size: 3em;
+  }
+  
+  .container {
+    width: 420px;
+    padding: 20px;
+  }
+  
+  .nome-input {
+    font-size: 1.1em;
+  }
+  
+  .footer {
+    font-size: 1.2em;
+  }
+  
+}
