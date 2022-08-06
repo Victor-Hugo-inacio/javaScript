@@ -1,1 +1,33 @@
+@charset "UTF-8";
 
+@media (max-width: 620px) {
+  
+  .titulo {
+    font-size: 2em;
+  }
+  
+  .container {
+    width: 420px;
+    padding: 15px;
+    gap: 10px;
+  }
+  
+  .titulo-input {
+    font-size: 1em;
+  }
+  
+  #numero {
+    width: 100px;
+    padding: 10px;
+  }
+  
+  .btn-adcionar {
+    width: 80px;
+    font-size: 14px;
+  }
+  
+  .footer, a {
+    font-size: 1em;
+  }
+  
+}
