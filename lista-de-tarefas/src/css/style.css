@@ -1,1 +1,96 @@
+@charset "UTF-8";
 
+.corpo {
+  background-color: #ecececc7;
+  font-family: Arial, Helvetica, Sans-Serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+}
+
+.cabecalho {
+  padding-top: 50px;
+  
+}
+
+.titulo {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.tarefas, .tarefa {
+  background-color: #F1ECFF;
+  position: relative;
+  display: flex;
+  width: 650px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#erro {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+}
+
+.tarefa.clicado {
+  background-color: #0fff0044;
+}
+
+.tarefa.clicado .texto {
+  text-decoration: line-through;
+}
+
+.texto {
+  width: 300px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#adicionar-tarefa {
+  background-color: white;
+  font-size: 25px;
+  padding: 20px;
+  width: 500px;
+  border-radius: 15px;
+  border: none
+}
+
+.btn-adicionar, .btn-excluir {
+  background-image: linear-gradient(85deg, rgb(125,194,222), rgb(67,150,217), rgb(16,61,180));
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btn-adicionar:hover , .btn-excluir:hover {
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-excluir {
+  background-image: linear-gradient(85deg, #d58f55, #c14c16, #cb1313);
+  width: 60px;
+}
