@@ -1,1 +1,69 @@
+@charset "UTF-8";
 
+
+html {
+  background-color: black;
+}
+
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, Sans-Serif;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#bloco {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+#pontos {
+  position: absolute;
+  left: 300px;
+  top: 10px;
+  color: white;
+}
+
+.personagem {
+  width: 100%;
+}
+
+#controls {
+  position: absolute;
+  display: flex;
+  width: 320px;
+  height: 210px;
+  bottom: 100px;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+#controls span {
+  background-color: #424242de;
+  color: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset, rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#controls span:hover {
+  background-color: gray;
+}
+
+#top {
+  position: absolute;
+  bottom: 110px;
+  left: 110px;
+}
