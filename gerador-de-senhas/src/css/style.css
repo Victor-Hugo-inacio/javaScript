@@ -18,7 +18,7 @@ h1 {
 
 main {
   background-color: #F1ECFF;
-  width: 600px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -27,12 +27,15 @@ main {
 }
 
 #tamanho {
-  width: 300px;
+  width: 400px;
+  font-size: 2em;
+  margin: auto;
 }
 
 #quantidade {
-  font-size: 15px;
-  width: 200px;
+  font-size: 18px;
+  width: 250px;
+  margin-bottom: 10px;
 }
 
 #gerarSenha {
@@ -54,7 +57,7 @@ main {
 .escolha {
   display: flex;
   justify-content: space-between;
-  width: 140px;
+  width: 160px;
 }
 
 #containerSenha {
