@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modelo</title>
+  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  
+  <script src="src/js/script.js" defer></script>
+  
+</head>
+<body>
+	<header>
+	  <h1>Gerador de senhas</h1>
+	</header>
+	<main>
+	  <input type="range" name="tamanho" id="tamanho" min="1" max="15"/><p id="quantidade">Quantidade de caracteres: 15</p>
+	  <h3 id="tipo">Tipo de senha:</h3>
+	  <label class="escolha" for="letras">Apenas Letras:
+	    <input type="radio" name="tipo-Senha" id="letras" value="letras"/>
+	  </label>
+	  <label class="escolha" for="letrasNumero">Letras e Números:
+	    <input type="radio" name="tipo-Senha" id="letrasNumero" value="letrasNumero"/>
+	  </label>
+	  <button id="gerarSenha">Gerar Senha</button>
+	  <p id="containerSenha">
+	    <input type="text" id="senhaCriada" readonly=""/>
+	    <button class="btn" id="copy" type="submit">
+	    <i><img class="copysvg" src="src/imagens/copy.svg" alt="copiar" /></i>
+	  </button>
+	  </p>
+	</main>
+</body>
+</html>
