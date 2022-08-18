@@ -1,1 +1,164 @@
+@charset "UTF-8";
 
+body {
+  background-color: #934e07;
+  font-family: Arial, Helvetica, Sans-Serif;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+h1 {
+  color: #F1ECFF;
+  font-size: 2.5em;
+}
+
+main {
+  position: relative;
+  background-color: #F1ECFF;
+  width: 600px;
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.imgForca {
+  width: 20px;
+}
+
+#forca {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.base {
+  position: absolute;
+  height: 200px;
+  width: 62px;
+  z-index: 1;
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid black;
+}
+
+#cabeca {
+  position: absolute;
+  left: 50px;
+}
+
+#corpo {
+  position: absolute;
+  height: 50px;
+  width: 10px;
+  top: 25px;
+  left: 55px;
+}
+
+#bracoE {
+  position: absolute;
+  top: 37px;
+  left: 45px;
+  height: 20px;
+  width: 10px;
+}
+
+#bracoD {
+  position: absolute;
+  top: 37px;
+  left: 66px;
+  height: 20px;
+  width: 10px;
+}
+
+#pernaE {
+  position: absolute;
+  top: 75px;
+  left: 48px;
+  height: 25px;
+  width: 10px;
+}
+
+#pernaD {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  height: 25px;
+  width: 10px;
+}
+
+#palavra {
+  position: absolute;
+  height: 40px;
+  width: 350px;
+  top: 125px;
+  left: 50px;
+}
+
+.letra {
+  text-align: center;
+  background-color: #F1ECFF;
+  width: 30px;
+  height: 30px;
+  border: none;
+ /* border-radius: 10px;*/
+  border-bottom: 2px solid black;
+}
+
+.letra:focus, select:focus {
+  outline: none;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 100px;
+}
+
+#erros {
+  font-size: 17px;
+}
+
+#usuario {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 180px;
+  left: 130px;
+  width: 300px;
+}
+
+#chute {
+  text-align: center;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #18d1ff, #18b5dd, #1c8aa5, #0a6176);
+  color: white;
+  font-weight: bold;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#novoJogo {
+  background-image: linear-gradient(45deg, #0af800, #22e32e, #25d236, #10b320);
+}
