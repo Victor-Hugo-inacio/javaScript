@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca</title>
+  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  
+  <script src="src/js/script.js" defer></script>
+  
+</head>
+<body>
+	<header>
+	  <h1>Jogo da forca</h1>
+	</header>
+	<main>
+	  <section id="forca">
+	    <div class="base">
+	    </div>
+	    <img class="imgForca" id="cabeca" src="src/imagens/cabeca.jpg" alt="cabeca" />
+	    <img class="imgForca" id="corpo" src="src/imagens/corpo.jpg" alt="corpo" />
+	    <img class="imgForca" id="bracoE" src="src/imagens/bracoE.jpg" alt="braço esquerdo" />
+	    <img class="imgForca" id="bracoD" src="src/imagens/bracoD.jpg" alt="braço direito" />
+	    <img class="imgForca" id="pernaE" src="src/imagens/pernaE.jpg" alt="perna esquerda" />
+	    <img class="imgForca" id="pernaD" src="src/imagens/pernaD.jpg" alt="perna direita" />
+	  </section>
+	  <div id="result">
+	    <h3 id="erros">Letras erradas: </h3>
+	    <h2 id="status"></h2>
+	  </div>
+	  <section id="palavra">
+	    <input class="letra" type="text" name="" id="letra1" readonly/>
+	    <input class="letra" type="text" name="" id="letra2" readonly/>
+	    <input class="letra" type="text" name="" id="letra3" readonly/>
+	    <input class="letra" type="text" name="" id="letra4" readonly/>
+	    <input class="letra" type="text" name="" id="letra5" readonly/>
+	    <input class="letra" type="text" name="" id="letra6" readonly/>
+	    <input class="letra" type="text" name="" id="letra7" readonly/>
+	    <input class="letra" type="text" name="" id="letra8" readonly/>
+	    <input class="letra" type="text" name="" id="letra9" readonly/>
+	    <input class="letra" type="text" name="" id="letra10" readonly/>
+	  </section>
+	  <section id="usuario">
+	    <input id="chute" type="text" name=""/>
+	    <button class="btn" id="btnChute" type="submit">Chutar</button>
+	    <button class="btn" id="novoJogo" type="submit">Novo Jogo</button>
+	  </section>
+	</main>
+</body>
+</html>
