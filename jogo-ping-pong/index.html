@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo Ping-Pong</title>
+  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  
+  <script src="src/js/script.js" defer></script>
+  
+</head>
+<body>
+  <h1>PING PONG</h1>
+	<main>
+	  <section>
+	    <div class="itemPainel">
+        <label for="pontuacao" class="pts">Pontuação:</label>
+        <input type="number" name="Pontuacao" id="pontuacao" readonly="" value="0"/>
+      </div>
+	  </section>
+    <section id="dvJogo">
+      <span id="bola"></span>
+      <span id="jogador" class="barraEsquerda">↑<br/><br/>↓</span>
+      <span id="cpu" class="barraDireita"></span>
+    </section>
+    <section id="dvPainel">
+      <div class="itemPainelbtb">
+        <button id="btnIniciar">Iniciar</button>
+      </div>
+    </section>
+	</main>
+</body>
+</html>
