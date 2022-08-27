@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da nave</title>
+  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  
+  <script src="src/js/script.js" defer></script>
+  
+</head>
+<body>
+  <section id="painel">
+    Planeta
+    <div id="medidorPlaneta">
+      <div id="barraPlaneta"></div>
+    </div>
+    <div id="contBombas"></div>
+  </section>
+  <section id="telaMsg" class="telaMsg">
+    <h1 class="nomeJogo">Space Bomb</h1>
+    <p class="press">press start</p>
+    <button id="btnJogar" class="btnJogar">Start</button>
+  </section>
+  <div id="navJog" class="navJog"></div>
+  <section class="controls">
+    <span class="btn" id="37">←</span>
+    <span class="btn cima" id="38">↑</span>
+    <span class="btn" id="40">↓</span>
+    <span class="btn" id="39">→</span>
+    <span class="btn space" id="32">💣</span>
+  </section>
+  <section class="telafim" id="telaFim">
+    <h3 id="statusGame" class="statusGame"></h3>
+    <p class="press">press restart game</p>
+    <button id="btnReiniciar" class="btnReiniciar">Restart</button>
+  </section>
+</body>
+</html>
