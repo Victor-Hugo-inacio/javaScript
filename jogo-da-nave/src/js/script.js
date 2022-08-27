@@ -268,9 +268,9 @@ function reinicia() {
   clearInterval(intervalCriaBomba);
   intervalCriaBomba = setInterval(criaBomba, tempoCriaBomba)
   cancelAnimationFrame(frame);
-  contBombas = 2;
+  contBombas = 50;
   
-  vidaPlaneta = 20;
+  vidaPlaneta = 200;
   pJX = (tamTelaW / 2) - 20;
   pJY = (tamTelaH / 2) - 40;
   jog.style = `top: ${pJY}px; left:${pJX}px`;
